@@ -6,6 +6,7 @@
 
 h1 {
     font-size: 3rem;
+    padding: 10px;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
 .container {
     background-color: #FEE440;
     width: 90vw;
+    height: 60vh;
     max-width: 90vw;
     display: flex;
     flex-direction: column;
@@ -42,6 +44,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 2.4rem;
+    padding: 10px;
 }
 
 .score-area, .controls {
@@ -51,6 +54,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 30px;
 }
 
 /*button style*/
@@ -62,6 +66,19 @@ body {
     margin: 6px;
 }
 
-.btn-
+.btn-restart:hover {
+    cursor: pointer;
+    background-color: #4473d8;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: #00F5D4;
+}
+
+.btn-option:hover {
+    cursor: grab;
+    background-color: #9B5DE5;
+}
 
 
