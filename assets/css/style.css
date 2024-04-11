@@ -16,3 +16,26 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/*container for content, score and controls*/
+.container {
+    background-color: #FEE440;
+    width: 90vw;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/*question container*/
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.4rem;
+}
