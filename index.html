@@ -1,57 +1,57 @@
-<!DOCTYPE html>
-<html lang="en-US">
+    <!DOCTYPE html>
+    <html lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!--title-->
-    <title>Quiz Game</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--favicon-->
-    <link rel="icon" type="image/favicon" href="assets/images/icons8-quizizz-16.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!--title-->
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--favicon-->
+        <link rel="icon" type="image/favicon" href="assets/images/icons8-quizizz-16.png">
 
-</head>
+    </head>
 
-<body>
-    <div class="container">
+    <body>
+        <div class="container">
 
-        <div class="username-section">
-            <label for="username-section">Username:</label>
-            <input type="text" id="usename" name="username" placeholder="Your username....">
-            <button class="btn-login" id="login">Log In</button>
+            <div class="username-section">
+                <label for="username-section">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Your username....">
+                <button class="btn-login" id="login">Log In</button>
+            </div>
+
+            <h1 class="title">Quiz Game!</h1>
+        
+            <div class="content" id="question-area">
+                <div id="question-text">Questions</div>
+                    <div class="options">
+                        <button class="btn btn-option" id="true">True</button>
+                        <button class="btn btn-option" id="false">False</button>
+                    </div>
+            </div>
+
+            <div class="score-area">
+                <p class="scores">Correct Answers<span id="score">0</span></p>
+                <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-restart" id="restart">Restart</button>
+                <button class="btn btn-submit" id="submit">Submit</button>
+            </div>
+
+            <div class="feedback">
+                <p>Share your feedback!<a href="form.html">Click here</a></p>
+            </div>
+
         </div>
 
-        <h1 class="title">Quiz Game!</h1>
-    
-        <div class="content" id="question-area">
-            <div id="question-text">Questions</div>
-                <div class="options">
-                    <button class="btn btn-option" id="true">True</button>
-                    <button class="btn btn-option" id="false">False</button>
-                </div>
-        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
 
-        <div class="score-area">
-            <p class="scores">Correct Answers<span id="score">0</span></p>
-            <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
-        </div>
-
-        <div class="controls">
-            <button class="btn btn-restart" id="restart">Restart</button>
-            <button class="btn btn-submit" id="submit">Submit</button>
-        </div>
-
-        <div class="feedback">
-            <p>Share your feedback!<a href="form.html">Click here</a></p>
-        </div>
-
-    </div>
-
-    <script src="assets/js/script.js"></script>
-</body>
-
-</html>
+    </html>
