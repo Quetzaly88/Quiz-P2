@@ -9,6 +9,7 @@ h1 {
     padding: 10px;
 }
 
+
 body {
     background-color: #F15BB5;
     height: 100vh;
@@ -22,7 +23,7 @@ body {
 .container {
     background-color: #FEE440;
     width: 90vw;
-    height: 60vh;
+    height: auto;
     max-width: 90vw;
     display: flex;
     flex-direction: column;
