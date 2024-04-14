@@ -1,3 +1,7 @@
+let currentQuestionIndex = 0;
+let score = 0;
+let incorrect = 0;
+
 const questions = [
     {
         question: "Where are the oldest mummifications found?",
