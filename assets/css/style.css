@@ -85,6 +85,31 @@
         padding-bottom: 10px;
     }
 
+    /*styles for form*/
+    form {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .form-elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+
+
     @media screen and (max-width: 480px) {
         .container {
             width: 90%;
