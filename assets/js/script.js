@@ -1,3 +1,17 @@
+function startQuiz() {
+
+}
+
+function displayQuestion() {
+
+}
+
+function checkAnswer() {
+
+}
+function 
+
+
 let currentQuestionIndex = 0;
 let score = 0;
 let incorrect = 0;
