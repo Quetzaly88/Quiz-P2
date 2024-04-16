@@ -9,23 +9,22 @@
         padding: 10px;
     }
 
-    input[type='text'],
-    input[type='password'] {
-        width: 50%;
-        padding: 5px;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        border: 2px solid #9B5DE5;
-    }
+    .username input[type='text'],
+    .password input[type='password'] {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #9B5DE5;
+}
 
     body {
-        
         background-color: #F15BB5;
         height: 100vh;
         width: 100vh;
-        display: flex;
+        /*display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center;*/
     }
 
     /*container for content, score and controls*/
@@ -107,7 +106,7 @@
             font-size: 1.5rem;
         }
 
-        .score-area, controls {
+        .score-area, .controls {
             flex-direction: column;
             margin-top: 10px;
         }
@@ -139,6 +138,7 @@
     textarea {
         height: 200px;
         border-radius: 5px;
+        padding: 10px;
         border: 2px solid #9B5DE5;
     }
 
@@ -157,7 +157,7 @@
 
     a {
         color: #9B5DE5;
-        text-decoration: double;
+        text-decoration: underline;
         margin-top: 10px;
     }
 

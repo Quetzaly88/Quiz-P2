@@ -1,10 +1,8 @@
-function startQuiz() {
+const questionArea = document.getElementById("question-area");
+const scoreDisplay = document.getElementById("score");
+const incorrectDisplay = document.getElementById("incorrect");
 
-}
 
-function displayQuestion() {
-
-}
 
 function checkAnswer() {
 
