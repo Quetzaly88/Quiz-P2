@@ -1,21 +1,9 @@
+//constants for quiz elements
+
 const questionArea = document.getElementById("question-area");
 const scoreDisplay = document.getElementById("score");
 const incorrectDisplay = document.getElementById("incorrect");
-
-function displayQuestion(question) {
-    questionArea.innerHTML = `<div id="question-text">${Questions}</div>`;
-}
-
-function checkAnswer() {
-
-}
-function 
-
-
-let currentQuestionIndex = 0;
-let score = 0;
-let incorrect = 0;
-
+const loginForm = document.getElementById("logIn");
 const questions = [
     {
         question: "Where are the oldest mummifications found?",
@@ -32,3 +20,23 @@ const questions = [
         ]
     }
 ];
+
+let currentQuestionIndex = 0;
+let correctAnswers = 0;
+let incorrectAnswers = 0;
+
+function displayCurrentQuestion() {
+    const currentQuestion = questions[currentQuestionIndex];
+    updateQuestion(currentQuestion.question);
+}
+
+//Log in form hide when inlogged
+loginForm.addEventListener("submit", function (event) {
+    const username = usernameField.value;
+    const password = passwordField.value;
+    usernameField.style.display = "none";
+    passwordField.style.display = "none";
+    loginFormField.style.display = "none";
+    this.titleField.style.display = "none";
+    window.alert("You are now logged in!");
+})
