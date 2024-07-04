@@ -19,20 +19,20 @@
     <body>
         <div class="container">
 
-            <div id="logIn" method="POST" action="/login/">
-                <div class="username">
+            <form id="logIn" method="POST" action="/login/">
+                <div class="form-elem">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" placeholder="Your username....">
                 </div>
             </div>
 
-            <div class="password">
+            <div class="form-elem">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" placeholder="Your password...">
             </div>
 
-            <input type="submit" id="sendBtn" value="LOGIN">
-                
+                <input type="submit" id="sendBtn" value="LOGIN">
+            </form>
         </div>
 
             
@@ -42,6 +42,9 @@
         
             <div class="content" id="question-area">
                 <div id="question-text">Questions</div>
+                
+                <p id="current-question"></p>
+
                     <div class="options">
                         <button class="btn btn-option" id="true">True</button>
                         <button class="btn btn-option" id="false">False</button>
@@ -50,7 +53,6 @@
 
             <div class="score-area">
                 <p class="scores">Correct Answers<span id="score">0</span></p>
-                <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
             </div>
 
             <div class="controls">
