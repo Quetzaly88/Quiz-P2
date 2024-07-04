@@ -74,7 +74,8 @@
         margin: 6px;
     }
 
-    .btn-restart:hover {
+    .btn-restart:hover,
+    .btn-start-game:hover {
         cursor: pointer;
         background-color: #4473d8;
     }
