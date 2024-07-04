@@ -12,7 +12,7 @@
 
     .username input[type='text'],
     .password input[type='password'] {
-    width: 50%;
+    width: 10%;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -33,8 +33,7 @@
     /*container for content, score and controls*/
     .container {
         background-color: #FEE440;
-        width: 90vw;
-        max-width: 90vh;
+        width: fit-content;
         margin-bottom: 20px;
         padding: 20px;
         border-radius: 10px;
@@ -51,7 +50,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 2.4rem;
+        font-size: 40px;
         padding: 10px;
         margin: auto;
     }
@@ -63,12 +62,12 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     /*button style*/
     .btn {
-        font-size: 1.5rem;
+        font-size: 16px;
         font-weight: bold;
         border-radius: 5px;
         padding: 5px;
@@ -87,7 +86,7 @@
     }
 
     .btn-option:hover {
-        cursor: grab;
+        cursor: pointer;
         background-color: #9B5DE5;
     }
 
@@ -135,6 +134,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     textarea {
@@ -142,6 +142,7 @@
         border-radius: 5px;
         padding: 10px;
         border: 2px solid #9B5DE5;
+        width: 100%;
     }
 
     #sendBtn {
@@ -151,6 +152,7 @@
         padding: 10px;
         font-size: 12px;
         cursor: pointer;
+        width: 100%;
     }
 
     #sendBtn:hover {
