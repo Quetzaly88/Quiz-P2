@@ -1,6 +1,5 @@
 let correctAnswer = 0;
 
-
 const questions = [
     {question: "The hummingbird egg is the world's smallest bird egg", correctAnswer: true},
     {question: "The blue whale is the biggest animal to have ever lived.", correctAnswer: true},
@@ -20,7 +19,8 @@ const falseButton = document.getElementById("false");
 
 
 function initGame () {
-
+    let currentQuestion = document.getElementById("current-question");
+    currentQuestion.innerText = questions[0].question;
 }
 
 function checkAnswer () {
