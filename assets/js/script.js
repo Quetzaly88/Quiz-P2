@@ -13,7 +13,7 @@ const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
 
 
-
+//question array
 const questions = [
     {question: "The hummingbird egg is the world's smallest bird egg", correctAnswer: true},
     {question: "The blue whale is the biggest animal to have ever lived.", correctAnswer: true},
@@ -48,9 +48,14 @@ function checkAnswer (answer, question) {
     }
 }
 
+
 function answerTrue () {
+    const currentQuestion = questions[currentQuestionIndex];
+    console.log(currentQuestion.correctAnswer);
 
 }
+
+
 
 function answerFalse () {
 
