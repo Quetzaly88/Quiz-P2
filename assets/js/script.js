@@ -30,6 +30,8 @@ falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
 //submitButton.onclick = submitGame;
 
+
+//The onsubmit attribute is an event handler that triggers a function when a form is submitted.
 logInForm.onsubmit = loginUser;
 
 function initGame () {
@@ -85,3 +87,11 @@ function nextQuestion () {
         let initGame = ();
     }
 }*/
+
+
+//code from internet
+function loginUser(event) {
+    event.preventDefault(); //stops the form from submitting in the default way, which would involve sending a request to the server and refreshing the page.
+    logInForm.style.display = "none";
+    initGame();
+}
