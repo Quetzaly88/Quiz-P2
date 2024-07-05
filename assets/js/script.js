@@ -1,4 +1,13 @@
 let correctAnswer = 0;
+let currentQuestionIndex = 0;
+
+const startGame = document.querySelector(".start-game");
+const trueButton = document.getElementById("true");
+const falseButton = document.getElementById("false");
+const questionArea = document.getElementById("question-area");
+const scoreDisplay = document.getElementById("score");
+const restartButton = document.getElementById("restart");
+const submitButton = document.getElementById("submit");
 
 const questions = [
     {question: "The hummingbird egg is the world's smallest bird egg", correctAnswer: true},
@@ -11,11 +20,6 @@ const questions = [
 startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
-
-const startGame = document.getElementById(".start-game");
-const questionArea = document.getElementById("question-area");
-const trueButton = document.getElementById("true");
-const falseButton = document.getElementById("false");
 
 
 function initGame () {
