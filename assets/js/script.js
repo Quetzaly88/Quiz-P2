@@ -67,6 +67,7 @@ function nextQuestion () {
     //find object, current question. Increment the current question index to move on to the next question. 
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
+        document.getElementById("current-question");
+}
 
-    }
 }
