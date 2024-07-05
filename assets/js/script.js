@@ -21,6 +21,8 @@ const falseButton = document.getElementById("false");
 function initGame () {
     let currentQuestion = document.getElementById("current-question");
     currentQuestion.innerText = questions[0].question;
+    let questionText = document.getElementById("question-text");
+    questionText.style.display = "none";
 }
 
 function checkAnswer () {
