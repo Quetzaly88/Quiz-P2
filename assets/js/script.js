@@ -40,11 +40,12 @@ function initGame () {
     startGame.style.display = "none";
 }
 
-function checkAnswer () {
-    if (answer === question.correctAnswer);
-    correctAnswer++;
-    let score = document.getElementById("score");
-    score.innerText = correctAnswer;
+function checkAnswer (answer, question) {
+    if (answer === question.correctAnswer) {
+        correctAnswer++;
+        let score = document.getElementById("score");
+        score.innerText = correctAnswer;
+    }
 }
 
 function answerTrue () {
