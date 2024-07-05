@@ -30,7 +30,7 @@ falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
 //submitButton.onclick = submitGame;
 
-
+logInForm.onsubmit = loginUser;
 
 function initGame () {
     let currentQuestion = document.getElementById("current-question");
