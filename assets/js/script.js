@@ -12,6 +12,8 @@ const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
 
+const logInForm = document.getElementById("logIn");
+
 
 //question array
 const questions = [
@@ -27,6 +29,7 @@ trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
 //submitButton.onclick = submitGame;
+
 
 
 function initGame () {
@@ -77,8 +80,8 @@ function nextQuestion () {
     }
 }
 
-function restartGame() {
+/*function restartGame() {
     if (question-area === You completed the quiz!) {
         let initGame = ();
     }
-}
+}*/
