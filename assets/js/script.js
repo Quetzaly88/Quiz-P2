@@ -20,6 +20,8 @@ const questions = [
 startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
+restartButton.onclick = restartGame;
+submitButton.onclick = submitGame;
 
 
 function initGame () {
