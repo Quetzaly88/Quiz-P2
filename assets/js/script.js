@@ -48,20 +48,19 @@ function checkAnswer (answer, question) {
     }
 }
 
-
+//retrive the correct question, log the answer, check if 'true' is correct. 
 function answerTrue () {
     const currentQuestion = questions[currentQuestionIndex];
     console.log(currentQuestion.correctAnswer);
     checkAnswer(true, currentQuestion);
     nextQuestion();
     }
-    
-}
-
-
 
 function answerFalse () {
-
+    const currentQuestion = questions[currentQuestionIndex];
+    console.log(currentQuestion.correctAnswer);
+    checkAnswer(false, currentQuestion);
+    nextQuestion();
 }
 
 function nextQuestion () {
