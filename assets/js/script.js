@@ -13,6 +13,11 @@ startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 
+const startGame = document.getElementById(".start-game");
+const questionArea = document.getElementById("question-area");
+const trueButton = document.getElementById("true");
+const falseButton = document.getElementById("false");
+
 
 function initGame () {
 
