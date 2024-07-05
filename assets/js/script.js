@@ -12,6 +12,8 @@ const submitButton = document.getElementById("submit");
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
 
+
+
 const questions = [
     {question: "The hummingbird egg is the world's smallest bird egg", correctAnswer: true},
     {question: "The blue whale is the biggest animal to have ever lived.", correctAnswer: true},
@@ -32,8 +34,10 @@ function initGame () {
     currentQuestion.innerText = questions[0].question;
     let questionText = document.getElementById("question-text");
     questionText.style.display = "none";
+
     title.style.display = "none";
     questionText.style.display = "none"; 
+    startGame.style.display = "none";
 }
 
 function checkAnswer () {
