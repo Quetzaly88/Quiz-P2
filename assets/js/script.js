@@ -52,7 +52,10 @@ function checkAnswer (answer, question) {
 function answerTrue () {
     const currentQuestion = questions[currentQuestionIndex];
     console.log(currentQuestion.correctAnswer);
-
+    checkAnswer(true, currentQuestion);
+    nextQuestion();
+    }
+    
 }
 
 
