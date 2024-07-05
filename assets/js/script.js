@@ -66,10 +66,10 @@ function answerFalse () {
 function nextQuestion () {
     //find object, current question. Increment the current question index to move on to the next question. 
     currentQuestionIndex++;
+    //check that displayed question is in the boundaries of the array. Do the next-question 
     if (currentQuestionIndex < questions.length) {
         document.getElementById("current-question").innerText[questions.currentQuestionIndex].question;
-} else {
-    
-}
-
+    } else {
+    document.getElementById("question-area").innerText = "You completed the quiz!";
+    }
 }
