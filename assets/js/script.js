@@ -7,7 +7,7 @@ const falseButton = document.getElementById("false");
 const questionArea = document.getElementById("question-area");
 const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
-const submitButton = document.getElementById("submit");
+//const submitButton = document.getElementById("submit");
 
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
@@ -26,7 +26,7 @@ startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
-submitButton.onclick = submitGame;
+//submitButton.onclick = submitGame;
 
 
 function initGame () {
@@ -75,4 +75,11 @@ function nextQuestion () {
     falseButton.style.display = "none"; 
     submitButton.style.display = "none";
     }
+}
+//reset the quiz state
+function restart () {
+    correctAnswer = 0;
+    currentQuestionIndex = 0;
+    scoreDisplay.innerText = correctAnswer;
+    
 }
