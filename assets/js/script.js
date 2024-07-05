@@ -76,10 +76,9 @@ function nextQuestion () {
     submitButton.style.display = "none";
     }
 }
-//reset the quiz state
-function restart () {
-    correctAnswer = 0;
-    currentQuestionIndex = 0;
-    scoreDisplay.innerText = correctAnswer;
-    
+
+function restartGame() {
+    if (question-area === You completed the quiz!) {
+        let initGame = ();
+    }
 }
