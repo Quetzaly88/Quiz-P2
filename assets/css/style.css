@@ -9,33 +9,18 @@
         padding: 10px;
     }
 
-    .log-in-box {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        margin: 10px;
-        background-color: #f7f7f7;
-        color: #1A535C;
-        width: 50%;
-        padding: 20px;
-        border-radius: 10px;
-        border: 2px solid;
-    }
-
-    .log-in-box input[type='text'],
-    .log-in-box input[type='password'] {
+    #username input[type='text'],
+    #password input[type='password'] {
         width: 100%;
         padding: 10px;
-        margin-bottom: auto;
-        margin-top: auto;
+        margin-bottom: 10px;
         border-radius: 5px;
-        border: 2px solid #FF6B6B;
         color: #1A535C;
     }
 
     body {
         background-color: #1A535C;
+        padding: 25px;
         color: #ffffff;
         display: flex;
         flex-direction: column;

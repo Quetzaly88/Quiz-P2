@@ -18,17 +18,20 @@
 </head>
 
 <body>
-    <div class="log-in-box">
-        <form id="login-form" method="POST" action="/login/">
-            <div>
+    <div class="container">
+        <form id="log-in" method="POST" action="/login/">
+            <div class="form-elem">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" placeholder="Your username....">
             </div>
-            <div>
+
+            <div class="form-elem">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" placeholder="Your password...">
             </div>
+
             <input type="submit" class="sendBtn" value="LOGIN">
+            
         </form>
     </div>
 
