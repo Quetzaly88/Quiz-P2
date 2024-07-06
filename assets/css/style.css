@@ -20,7 +20,7 @@
         width: 50%;
         padding: 20px;
         border-radius: 10px;
-        border: 2px solid;*
+        border: 2px solid;
     }
 
     .log-in-box input[type='text'],
@@ -82,29 +82,30 @@
     }
 
     /*button style*/
-    .btn {
+    .btn, 
+    .start-game {
         font-size: 16px;
         font-weight: bold;
         border-radius: 5px;
         padding: 5px;
         margin: 6px;
         color: #f7f7f7;
+        background-color: #4ecdc4;
     }
 
-    .btn-restart:hover,
-    .btn-start-game:hover {
+    .start-game:hover {
         cursor: pointer;
-        background-color: #00F5D4
+        background-color: #FF6B6B;
     }
 
-    .btn-submit:hover {
+    .btn-restart:hover {
         cursor: pointer;
-        background-color: #00F5D4;
+        background-color: #1A535C;
     }
 
     .btn-option:hover {
         cursor: pointer;
-        background-color: #9B5DE5;
+        background-color: #FF6B6B;
     }
 
     #question-text {
@@ -165,17 +166,18 @@
         width: 100%;
     }
 
-    #sendBtn {
+    .sendBtn {
         background-color: #4ecdc4;
         border: none;
         border-radius: 5px;
-        padding: 10px;
-        font-size: 12px;
+        padding: 5px;
+        font-size: 16px;
         cursor: pointer;
-        width: 100%;
+        width: 150px;
+        height: 50px;
     }
 
-    #sendBtn:hover {
+    .sendBtn:hover {
         background-color: #FF6B6B;
     }
 
