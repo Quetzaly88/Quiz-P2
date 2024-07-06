@@ -7,7 +7,7 @@ const falseButton = document.getElementById("false");
 const questionArea = document.getElementById("question-area");
 const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
-//const submitButton = document.getElementById("submit");
+
 
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
@@ -28,7 +28,6 @@ startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
-//submitButton.onclick = submitGame;
 
 
 //The onsubmit attribute is an event handler that triggers a function when a form is submitted.
@@ -92,6 +91,6 @@ function nextQuestion () {
 //code from internet
 function loginUser(event) {
     event.preventDefault(); //stops the form from submitting in the default way, which would involve sending a request to the server and refreshing the page.
-    logInForm.style.display = "none";
+    logInForm.style.display = "none"; 
     initGame();
 }
