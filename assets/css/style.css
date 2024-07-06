@@ -109,10 +109,11 @@
         flex-direction: column;
         align-items: center;
     }
+
 /*style for feedback box*/
 
     textarea {
-        display: block;
+        display: flex;
         height: 300px;
         width: 500px;
         border-radius: 5px;
@@ -120,21 +121,6 @@
         padding: 10px;
         border: 2px solid #1A535C;
         padding: auto;
-    }*/
-
-    .sendBtn {
-        background-color: #4ecdc4;
-        border: none;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 16px;
-        cursor: pointer;
-        width: 150px;
-        height: 50px;
-    }
-
-    .sendBtn:hover {
-        background-color: #FF6B6B;
     }
 
     a {
@@ -166,6 +152,11 @@
             margin-top: 10px;
         }
 
+        textarea {
+        height: 100px;
+        width: 200px;
+        }
+
     }
 
     @media screen and (max-width: 768px) {
@@ -175,5 +166,11 @@
             max-width: 90%;
             padding: 20%;
         }
+
+
+        textarea {
+            height: 200px;
+            width: 300px;
+            }
 
     }
