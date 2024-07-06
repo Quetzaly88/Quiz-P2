@@ -9,27 +9,28 @@
         padding: 10px;
     }
 
-    .log-in-box {
-        background-color: #FEE440;
-        width: fit-content;
-        padding: 20px;
-        border-radius: 10px;
+    .log-in-box{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 10px;
+        background-color: #f7f7f7;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 10px;
     }
+
     .username input[type='text'],
     .password input[type='password'] {
     width: 10%;
-    padding: 5px;
+    padding: 30px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 2px solid #9B5DE5;
+    border: 2px solid #FF6B6B;
 }
 
     body {
-        background-color: #F15BB5;
+        background-color: #1A535C;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -41,7 +42,7 @@
 
     /*container for content, score and controls*/
     .container {
-        background-color: #FEE440;
+        background-color: #FFE66D;
         width: fit-content;
         margin-bottom: 20px;
         padding: 20px;
