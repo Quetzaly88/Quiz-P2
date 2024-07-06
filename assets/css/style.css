@@ -97,6 +97,56 @@
         padding-bottom: 10px;
     }
 
+    /*styles for form and log in box*/
+    
+    form {
+        display: flex;
+        justify-content: center;
+        width: 200%;
+        margin-top: auto;
+        padding: auto;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+/*style for feedback box*/
+
+    textarea {
+        display: block;
+        height: 300px;
+        width: 500px;
+        border-radius: 5px;
+        justify-content: center;
+        padding: 10px;
+        border: 2px solid #1A535C;
+        padding: auto;
+    }*/
+
+    .sendBtn {
+        background-color: #4ecdc4;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+    }
+
+    .sendBtn:hover {
+        background-color: #FF6B6B;
+    }
+
+    a {
+        color: #FF6B6B;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
 
     @media screen and (max-width: 480px) {
         .container {
@@ -126,52 +176,4 @@
             padding: 20%;
         }
 
-    }
-
-    /*styles for form*/
-    form {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 25px;
-    }
-
-    .form-elem {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    textarea {
-        height: 200px;
-        border-radius: 5px;
-        padding: 10px;
-        border: 2px solid #1A535C;
-        width: 100%;
-    }
-
-    .sendBtn {
-        background-color: #4ecdc4;
-        border: none;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 16px;
-        cursor: pointer;
-        width: 150px;
-        height: 50px;
-    }
-
-    .sendBtn:hover {
-        background-color: #FF6B6B;
-    }
-
-    a {
-        color: #FF6B6B;
-        text-decoration: underline;
-        margin-top: 10px;
-    }
-
-    a:hover {
-        text-decoration: underline;
     }
