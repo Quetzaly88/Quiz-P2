@@ -1,67 +1,68 @@
-    <!DOCTYPE html>
-    <html lang="en-US">
+<!DOCTYPE html>
+<html lang="en-US">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <!--title-->
-        <title>Quiz Game</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!--favicon-->
-        <link rel="icon" type="image/favicon" href="assets/images/icons8-quizizz-16.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </head>
-  
-    <body>
-        <div id="log-in-box">
-            <form id="login-form" method="POST" action="/login/">
-                <div>
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" placeholder="Your username....">
-                </div>
-                <div>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" placeholder="Your password...">
-                </div>
-                    <input type="submit" id="sendBtn" value="LOGIN">
-            </form>
-        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--title-->
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--favicon-->
+    <link rel="icon" type="image/favicon" href="assets/images/icons8-quizizz-16.png">
 
-        <div class="container">
-            <h1 class="title">Quiz Game!</h1>
+</head>
 
-            <button class="start-game">START</button>
-        
-            <div class="content" id="question-area">
-                <div id="question-text">Questions</div>
-                
-                <p id="current-question"></p>
-
-                    <div class="options">
-                        <button class="btn btn-option" id="true">True</button>
-                        <button class="btn btn-option" id="false">False</button>
-                    </div>
+<body>
+    <div class="log-in-box">
+        <form id="login-form" method="POST" action="/login/">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Your username....">
             </div>
-
-            <div class="score-area">
-                <p class="scores">Correct Answers<span id="score">0</span></p>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Your password...">
             </div>
+            <input type="submit" id="sendBtn" value="LOGIN">
+        </form>
+    </div>
 
-            <div class="controls">
-                <button class="btn btn-restart" id="restart">Restart</button>
-               
-            </div>
+    <div class="container">
+        <h1 class="title">Quiz Game!</h1>
 
-            <div class="feedback">
-                <p>Share your feedback!<a href="form.html">Click here</a></p>
+        <button class="start-game">START</button>
+
+        <div class="content" id="question-area">
+            <div id="question-text">Questions</div>
+
+            <p id="current-question"></p>
+
+            <div class="options">
+                <button class="btn btn-option" id="true">True</button>
+                <button class="btn btn-option" id="false">False</button>
             </div>
         </div>
 
-        <script src="assets/js/script.js"></script>
-    </body>
+        <div class="score-area">
+            <p class="scores">Correct Answers<span id="score">0</span></p>
+        </div>
 
-    </html>
+        <div class="controls">
+            <button class="btn btn-restart" id="restart">Restart</button>
+
+        </div>
+
+        <div class="feedback">
+            <p>Share your feedback!<a href="form.html">Click here</a></p>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

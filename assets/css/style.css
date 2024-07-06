@@ -1,7 +1,7 @@
-    *{
+    * {
         margin: 0;
         padding: 0;
-        font-family: 'Exo 2', sans-serif; 
+        font-family: 'Exo 2', sans-serif;
     }
 
     h1 {
@@ -9,28 +9,32 @@
         padding: 10px;
     }
 
-    .log-in-box{
+    .log-in-box {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 10px;
         background-color: #f7f7f7;
+        color: #1A535C
         width: fit-content;
         padding: 20px;
         border-radius: 10px;
+        border: 2px solid;
     }
 
     .username input[type='text'],
     .password input[type='password'] {
-    width: 10%;
-    padding: 30px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 2px solid #FF6B6B;
-}
+        width: 10%;
+        padding: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 2px solid #FF6B6B;
+        color: #1A535C;
+    }
 
     body {
         background-color: #1A535C;
+        color: #ffffff;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -43,6 +47,7 @@
     /*container for content, score and controls*/
     .container {
         background-color: #FFE66D;
+        color: #1A535C;
         width: fit-content;
         margin-bottom: 20px;
         padding: 20px;
@@ -63,7 +68,8 @@
         margin: auto;
     }
 
-    .score-area, .controls {
+    .score-area,
+    .controls {
         width: 100%;
         margin-top: 20px;
         text-align: center;
@@ -80,12 +86,13 @@
         border-radius: 5px;
         padding: 5px;
         margin: 6px;
+        color: #ffffff;
     }
 
     .btn-restart:hover,
     .btn-start-game:hover {
         cursor: pointer;
-        background-color: #4473d8;
+        background-color: #00F5D4
     }
 
     .btn-submit:hover {
@@ -115,11 +122,12 @@
             font-size: 1.5rem;
         }
 
-        .score-area, .controls {
+        .score-area,
+        .controls {
             flex-direction: column;
             margin-top: 10px;
         }
-        
+
     }
 
     @media screen and (max-width: 768px) {
@@ -176,4 +184,3 @@
     a:hover {
         text-decoration: underline;
     }
-
