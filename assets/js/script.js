@@ -12,7 +12,7 @@ const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
 
-const logInForm = document.getElementById("logIn");
+const logInForm = document.getElementById("log-in");
 
 
 //question array

@@ -110,6 +110,8 @@
         align-items: center;
     }
 
+
+
 /*style for feedback box*/
 
     textarea {
@@ -132,7 +134,6 @@
     a:hover {
         text-decoration: underline;
     }
-
 
     @media screen and (max-width: 480px) {
         .container {
