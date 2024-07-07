@@ -82,12 +82,6 @@ function nextQuestion () {
     }
 }
 
-function restartGame {
-    title.style.display = "block";
-    questionText.style.display = "block";
-    startGame.style.display = "block";
-}
-
 //code from internet
 function loginUser(event) {
     event.preventDefault(); //stops the form from submitting in the default way, which would involve sending a request to the server and refreshing the page.
