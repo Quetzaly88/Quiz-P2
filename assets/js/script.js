@@ -36,12 +36,14 @@ logInForm.onsubmit = loginUser;
 function initGame () {
     let currentQuestion = document.getElementById("current-question");
     currentQuestion.innerText = questions[0].question;
+
     let questionText = document.getElementById("question-text");
     questionText.style.display = "none";
 
     title.style.display = "none";
     questionText.style.display = "none"; 
     startGame.style.display = "none";
+
 }
 
 function checkAnswer (answer, question) {
@@ -81,11 +83,11 @@ function nextQuestion () {
     }
 }
 
-/*function restartGame() {
-    if (question-area === You completed the quiz!) {
-        let initGame = ();
-    }
-}*/
+function restartGame() {
+    correctAnswer = 0;
+    currentQuestionIndex = 0;
+    scoreDisplay.innerText = correctAnswer;
+}
 
 
 //code from internet
