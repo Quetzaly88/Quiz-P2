@@ -111,7 +111,8 @@
 
     /*styles for form and log in box*/
     
-    form {
+    form-username,
+    form-password {
         display: flex;
         justify-content: center;
         width: 200%;

@@ -12,8 +12,6 @@ const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
 
-const logInForm = document.getElementById("log-in");
-
 
 //question array
 const questions = [
@@ -27,10 +25,25 @@ const questions = [
 startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
+
 restartButton.onclick = restartGame;
 
-//The onsubmit attribute is an event handler that triggers a function when a form is submitted.
-logInForm.onsubmit = loginUser;
+
+//login code doesn't work
+
+/**function logIn(event) {
+    event.preventDefault();
+
+    let user = document.getElementById("username");
+    let pass = document.getElementById("password");
+
+    document.getElementById("user-result").textContent = user.value;
+    document.getElementById("pass-result").textContent = pass.value;
+}
+
+let form = document.getElementById("log-in");
+form.addEventListener("submit", logIn);**/
+
 
 function initGame () {
     let currentQuestion = document.getElementById("current-question");
@@ -82,9 +95,4 @@ function nextQuestion () {
     }
 }
 
-//code from internet
-function loginUser(event) {
-    event.preventDefault(); //stops the form from submitting in the default way, which would involve sending a request to the server and refreshing the page.
-    logInForm.style.display = "none"; 
-    initGame();
-}
+
