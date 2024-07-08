@@ -1,3 +1,4 @@
+
 let correctAnswer = 0;
 let currentQuestionIndex = 0;
 
@@ -7,11 +8,8 @@ const falseButton = document.getElementById("false");
 const questionArea = document.getElementById("question-area");
 const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
-
-
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
-
 
 //question array
 const questions = [
@@ -26,23 +24,28 @@ startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 
-restartButton.onclick = restartGame;
+function restartGame () {
+    //reasign values to existing variables
+    correctAnswer = 0;
+    currentQuestionIndex = 0;
 
-
+}
 //login code doesn't work
-
-/**function logIn(event) {
+//just demonstration, no autentification logic
+function logIn(event) {
+    //prevent the default from submision
     event.preventDefault();
-
+    //retrieve input by id
     let user = document.getElementById("username");
     let pass = document.getElementById("password");
-
+    //display values
     document.getElementById("user-result").textContent = user.value;
     document.getElementById("pass-result").textContent = pass.value;
 }
-
+//retrieve the form by id
 let form = document.getElementById("log-in");
-form.addEventListener("submit", logIn);**/
+//add event listener
+form.addEventListener("submit", logIn);
 
 
 function initGame () {
