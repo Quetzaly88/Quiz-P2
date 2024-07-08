@@ -23,12 +23,13 @@ const questions = [
 startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
+restartButton.onclick = restartGame;
 
 function restartGame () {
-    //reasign values to existing variables
     correctAnswer = 0;
     currentQuestionIndex = 0;
-
+    console.log("restartGame");
+    alert("hola");
 }
 //login code doesn't work
 //just demonstration, no autentification logic
