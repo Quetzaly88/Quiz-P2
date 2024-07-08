@@ -10,6 +10,7 @@ const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
 const questionText = document.getElementById("question-text");
+const options = document.querySelector(".options");
 
 //question array
 const questions = [
@@ -28,10 +29,10 @@ restartButton.onclick = restartGame;
 function restartGame () {
     correctAnswer = 0;
     currentQuestionIndex = 0;
-    console.log("restartGame");
-    alert("hola");
+    questionArea.innerText = questions[0].question;
+
 }
-//login code doesn't work
+/**login code doesn't work
 //just demonstration, no autentification logic
 function logIn(event) {
     //prevent the default from submision
@@ -46,7 +47,7 @@ function logIn(event) {
 //retrieve the form by id
 let form = document.getElementById("log-in");
 //add event listener
-form.addEventListener("submit", logIn);
+form.addEventListener("submit", logIn);*/
 
 
 function initGame () {
@@ -93,8 +94,8 @@ function nextQuestion () {
         document.getElementById("current-question").innerText = questions[currentQuestionIndex].question;
     } else {
     document.getElementById("question-area").innerText = "You completed the quiz!";
-    trueButton.style.display = "none";
-    falseButton.style.display = "none"; 
+    options.style.display = "none";
+    //falseButton.style.display = "none"; 
     submitButton.style.display = "none";
     }
 }
