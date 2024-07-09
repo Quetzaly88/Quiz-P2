@@ -1,16 +1,18 @@
-
 let correctAnswer = 0;
 let currentQuestionIndex = 0;
 
 const startGame = document.querySelector(".start-game");
 const trueButton = document.getElementById("true");
 const falseButton = document.getElementById("false");
-const questionArea = document.getElementById("question-area");
+
+//const questionArea = document.getElementById("question-area");
+
 const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
-const questionText = document.getElementById("question-text");
-const options = document.querySelector(".options");
+const currentQuestionText = document.getElementById("current-question");
+//const questionText = document.getElementById("question-text");
+//const options = document.querySelector(".options");
 
 //question array
 const questions = [
