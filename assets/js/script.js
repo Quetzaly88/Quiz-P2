@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 //initialize correct answer count and question index. 
 let correctAnswer = 0;
 let currentQuestionIndex = 0;
