@@ -65,11 +65,9 @@ function answerFalse () {
 
 
 function nextQuestion () {
-    //find object, current question. Increment the current question index to move on to the next question. 
-    currentQuestionIndex++;
-    //check that displayed question is in the boundaries of the array. Do the next-question 
+    currentQuestionIndex++; 
     if (currentQuestionIndex < questions.length) {
-        document.getElementById("current-question").innerText = questions[currentQuestionIndex].question;
+        currentQuestionText.innerText = questions[currentQuestionIndex].question;
     } else {
        currentQuestionText.innerText = "You completed the quiz!";
        currentQuestionText.style.display = "block";
@@ -78,18 +76,13 @@ function nextQuestion () {
        restartButton.style.display = "block";
     }
 }
- /*questionText.style.display = "block";
-        questionText.innerText = "You completed the quiz!";
-        document.getElementById("current-question").style.display = "none";
-        trueButton.style.display = "none"; 
-        falseButton.style.display = "none";
-        restartButton.style.display = "block"; /*
-    }
-
 
 function restartGame () {
     correctAnswer = 0;
     currentQuestionIndex = 0;
+    currentQuestionText.innerText = questions[0].question;
+    currentQuestionText.style.display = "block";
+
     
     let currentQuestion = document.getElementById("current-question");
     currentQuestion.innerText = questions[0].question; //referencing the obj. property
