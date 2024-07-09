@@ -90,6 +90,7 @@ function answerFalse () {
     nextQuestion();
 }
 
+
 function nextQuestion () {
     //find object, current question. Increment the current question index to move on to the next question. 
     currentQuestionIndex++;
@@ -97,6 +98,7 @@ function nextQuestion () {
     if (currentQuestionIndex < questions.length) {
         document.getElementById("current-question").innerText = questions[currentQuestionIndex].question;
     } else {
+        questionText.style.display = "block";
         questionText.innerText = "You completed the quiz!";
         trueButton.style.display = "none"; 
         falseButton.style.display = "none"; 
