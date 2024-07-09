@@ -1,15 +1,9 @@
-Quiz-game
+# Quiz-game
  
 Project 2
 Code Isntitute
 
 This is a simple quiz game that tests your knowledge with true/false questions. This game includes. a log-in form, a set of questions, a track of your score and a form for feedback. 
-
-# Surfing-and-Wellness
-Project 1 Code Institute
-
-Surfing and wellness is a site to inspire users to do a different sport which can help them connect with themselves and nature. This website is targeted to people in need of new perspectives in life and with the desire to find a support community. 
-Users of this website can find information about our work and they can even complete an application to be part of these journeys.
 
 ![mockup](./assets/readme-files/mockup.webp)
 
