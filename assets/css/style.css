@@ -135,14 +135,15 @@
         text-decoration: underline;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1024px) {
         
         body {
-            font-size: 10px;
+            font-size: 12px;
         }
         .container {
-            width: 100%;
+            width: 90%;
             height: auto;
+            max-width: 90%;
             padding: auto;
         }
 
@@ -158,17 +159,17 @@
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 1025px) {
 
         body {
-            font-size: 16px;
+            font-size: 20px;
         }
 
         .container {
-            width: 90%;
+            width: 90vh;
             height: auto;
             max-width: 90%;
-            padding: 20%;
+            padding: auto;
         }
 
 
@@ -178,40 +179,3 @@
         }
 
     }
-
-/*centering content on screen larger than 768px*/
-
-    @media screen and (min-width: 769px) {
-
-        body {
-            font-size: 20px;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            text-align: center;
-        }
-    
-        /*question container*/
-        .content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 10px;
-            margin: auto;
-        }
-    
-        .score-area,
-        .controls {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            text-align: center;
-        }
-    }
- }
