@@ -19,10 +19,16 @@ const questions = [
     {question: "The longest river in the world is the Nile", correctAnswer: false}
 ]
 loginForm.onsubmit = handleLogin;
+
 startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
+
+function handleLogin (event) {
+    event.preventDefault();
+}
+
 
 function initGame () {
     currentQuestionText.innerText = questions[0].question;
