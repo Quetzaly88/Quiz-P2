@@ -20,7 +20,7 @@ const questions = [
     { question: "Do camels store water in their humps?", correctAnswer: false },
     { question: "Is the chemical symbol for gold 'Au'", correctAnswer: true },
     { question: "The longest river in the world is the Nile", correctAnswer: false }
-]
+];
 
 //event handlers to the buttons and form 
 loginForm.onsubmit = handleLogin;
@@ -75,7 +75,7 @@ function nextQuestion() {
     } else {
         currentQuestionText.innerText = "You completed the quiz!";
         currentQuestionText.style.display = "block";
-        trueButton = "none";
+        trueButton.style.display = "none";
         falseButton.style.display = "none";
         restartButton.style.display = "block";
     }
