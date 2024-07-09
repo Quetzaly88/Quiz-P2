@@ -5,28 +5,25 @@ Code Isntitute
 
 This is a simple quiz game that tests your knowledge with true/false questions. This game includes. a log-in form, a set of questions, a track of your score and a form for feedback. 
 
-![mockup](./assets/readme-files/mockup.webp)
+![mockup](./assets/readme.files/mockup.webp)
+
+https://ui.dev/amiresponsive
+
 
 Design
 
 Colour Scheme
 
-I chosed warm tones for my website in order to communicate peace and relaxation. The colors match to the pictures too. 
-I used coolors.co to be able to match correctly all the tones. The dark color was used on header and footer. The ligter colors were used as background colors with gradienst property. 
+I choosed a pallet from coolors that is not so bright and makes that the quix container color pops up more then the background color. The dark color was used in the back, the bright yellow in the quiz container and other colors were used in the buttons. 
 
 ![warm tones](./assets/readme-files/warm-tones.webp)
 
 Typography
 
-The chosen typography was adquired from fonts google.
-I chose "Manrope" for the main text because is a redable font and adapts easy to all the context.
-Another font is "Rowdies". This one was chosen for all the header and footer elements because is more fun and interactive.
+The chosen typography was adquired from google fonts. 
+I chosed "Exo 2" for all the text because is a redable font and gives me the feeling that suits a game. 
 
-![typography Manrope](./assets/readme-files/Screenshot%202024-03-06%20at%2023.36.41.webp)
-MANROPE
-
-![typography Rowdies](./assets/readme-files/Screenshot%202024-03-06%20at%2023.36.17.png)
-ROWDIES
+![typography Exo 2](./assets/readme.files/font.webp)
 
 Imagery
 
