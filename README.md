@@ -18,6 +18,8 @@ I choosed a pallet from coolors that is not so bright and makes that the quix co
 
 ![warm tones](./assets/readme-files/warm-tones.webp)
 
+https://coolors.co/
+
 Typography
 
 The chosen typography was adquired from google fonts. 
@@ -25,27 +27,32 @@ I chosed "Exo 2" for all the text because is a redable font and gives me the fee
 
 ![typography Exo 2](./assets/readme.files/font.webp)
 
+https://fonts.google.com/specimen/Exo+2?stroke=Sans+Serif&query=exo+2
+
 Imagery
 
-I have used pictures from Pixels and one personal. All the pictures have been resized and converted to "webp". 
-I chose those images with thought on the content, the colors and the emotions I wish to bring to the users. 
+I haven't used any pictures for this project because it was mostly focused on the development of Javascript. But, I used just one image from favicons for the website representation. 
+The image is displayed in the browser tab. 
+
+![fav icon](./assets/images/icons8-quizizz-64.png)
+
+https://icons8.com/icons/set/quiz
+
 
 Wireframes
 
-Most wireframes were made old school with pen and paper. I have even used "balsamiq" but the ones I made on paper were more versatile and easy to go back in the middle of the project. 
+Most wireframes were made old school with pen and paper. I have used FIGMA just for a quick representation in README. 
 
-![skiss balsamiq1](./assets/readme-files/Screenshot-skiss1.webp)
-![skiss balsamiq2](./assets/readme-files/screenshot-skiss2.webp)
-![skiss balsamiq3](./assets/readme-files/Screenshot-skiss3.webp)
+![main page](./assets/readme.files/wireframe1.webp)
+![form](./assets/readme.files/wireframe2.webp)
+
+https://www.figma.com/design/bl6DMXwtOLRpX6XjRXwDif/Untitled?t=fSNs9KADQaAGOnzS-0
 
 FEATURES
 
-Navigation Bar:
+The log in box:
 
-* Featured on all three pages. You can go over the different parts of the website. Home will direct you to the main page. Gallery will direct you to the pictures of travels with S&W. At the end we have the Application where people can write some information about themselves and be candidates to be part of the Surf and Wellness adventures. 
-
-* The same navigation bar is avaiable on all three pages to make it possible return to de desired page.
-* The navigation has also the logotype of "Surfing and Wellnes" which has a good contrast with the other colors of the page. 
+* Here is a 
 
 The landing page image
 
