@@ -29,10 +29,14 @@ restartButton.onclick = restartGame;
 function restartGame () {
     correctAnswer = 0;
     currentQuestionIndex = 0;
-    questionArea.innerText = questions[0].question;//referincing the obj.property
+    let currentQuestion = document.getElementById("current-question");
+    currentQuestion.innerText = questions[0].question; //referencing the obj. property
+    //questionArea.innerText = questions[0].question;
+    currentQuestion.style.display = "block";
     options.style.display = "inline";
     trueButton.style.display = "block"; 
-    falseButton.style.display = "block"; 
+    falseButton.style.display = "block";
+    questionText.style.display = "none"; 
     restartButton.style.display = "none";
 
 }
