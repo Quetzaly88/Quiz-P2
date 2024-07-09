@@ -52,46 +52,23 @@ FEATURES
 
 The log in box:
 
-* Here is a 
+* Here is a simple log-in box that requires an e-mai adress. It accepts any password and prevents to be submitted.////////// 
+
+![log-in](./assets/readme.files/login.webp)
 
 The landing page image
 
 The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of how it feels to surf and how happy you can feel with it. You can even undesrstand that challenging yourself is fun. 
 
-![main page with navigation bar](./assets/readme-files/main-.webp)
+![quiz container](./assets/readme.files/main.page.webp)
 
-The main section
-
-Here we have the main content that shows some of the most important activities included in this program. The programs are based on rehabilitate and make people feel better. Everyone can be part of this journey no matter how old or what background you have. 
-Surf, surfskate, yoga and meditation are some of the activities that individuals can enjoy during this journey. 
-
-![content 1](./assets/readme-files/content1.webp)
-
-Inside the main content we have an embeded video which is a trailer for a documental. The video is very moving and shows how has veterans return to their normal lives thanks to surfing. This is proof that this program can be very beneficial. 
-
-![content 2](./assets/readme-files/content2.webp)
-
-Gallery Section
-
-Here we have some pictures of the experiences. 
-Meditation, surfing, socializing and connection with the nature are some of the highlights that can motivate users to be part of this eperience. 
-
-![gallery mobile](./assets/readme-files/gallery-mobil.webp)
-![gallery](./assets/readme-files/gallery.webp)
-
-Application Form
+Feedback Form
 
 *In this page, the users provide basic information about themselves. Name, last name, email adress and some questions. The questions are important for the team to know a little bit more about the users and their experience in the water. 
 *S&W team can locate people in the most adaptable group. Then, they can contact the users about what is avaiable. 
 
-![application](./assets/readme-files/application.webp)
+![form](./assets/readme.files/form.webp)
 
-Footer
-
-*The footer section includes links to the relevant social media sites for S&W which can keep our users connected. The links will open to a new tab to allow easy navigation for the user. 
-* We provide our contact information, adress, phone numbers and redirect to e-mail and google maps. 
-
-![footer](./assets/readme-files/footer.webp)
 
 Future Implementations
 - Add teachers and staff pictures on the site, with information about them and their experience. 
@@ -119,8 +96,9 @@ Testing
 *HTML. No errors were returned when passing through the official W3C validator
 *CSS. No errors were found when passing through the official (Jigsaw) validator
 
-![HTML TEST](./assets/readme-files/html-w3.webp)
-![CSS TEST](./assets/readme-files/css-jigsaw.webp)
+![HTML TEST](./assets/readme.files/html.validator.webp)
+![CSS TEST](./assets/readme.files/css.validator.webp)
+![JAVASCRIPT TEST](./assets/readme.files/javascript%20validator.webp)
 
 Bugs
 
@@ -161,27 +139,22 @@ many other credits are to YouTube Tutorials from:
 
 Media Content
 
-- Image resize. https://www.iloveimg.com/resize-image
-- Downloaded Pictures. https://www.pexels.com/
 - Webp converter app. https://anywebp.com/
-- Image size. https://tiny-img.com/blog/best-image-size-for-website/
-- Fav icons, social media icons and fond types. https://fontawesome.com/account/general
+- Fav icons
 - Fonts. https://fonts.google.com/
-- Logotype for Surfing and Wellness: https://www.canva.com/
-- Responsive mockups. https://youtu.be/Dtad5Ml2UrM?si=vhLDkJcgY4tHJHus
+- Responsive mockups. 
 - Palette colors. https://coolors.co/
-- Wireframes. https://balsamiq.com/wireframes/desktop/ and my own notes.
+- Wireframes.  and my own notes.
 
 Text content
 
-The text content is from myself. I have experience with tourism and surfing, which made me focus on that type of context. I wrote things that I wish to accomplish one day. 
-Some of the text was inspired from:
-- https://sunwavesurfcamp.com/blog/show/161-5-health-benefits-of-surfing
 
 Acknowledgments
 
-I want to thank specially to Dajana Isbaner_5P_lead from slack. All this days I've been having a hard time understanding things she was the biggest support I had. Even when my questions were silly, she took the time to help me resolve the issues. 
+I want to thank specially to Tarek Bermalm. He is my private teacher in Sweden. He was a big support and a very patience teacher 
 
-I got inspiration for this README from Kera_Hackteam from slack. I saw how amazing her job is and I wished to use her template as a base for this readmne.
+I made a most of my code in Replit and after I tested and saw that everything was working fine I wrote the code in gitpod. One big issue about Replit is that the changes are not all the time uppdated, which made me re do alot of the code in gitpod. 
 
-The tutor team was avaiable most of the times I asked questions. I'm thankful for their assesment. 
+I got inspiration for this README from Kera_Hackteam. This README had my own template from Project N.1.  Some of the used websites are the same.  
+
+The tutor team was avaiable most of the times I asked questions but because of the time it takes to get help I tried to do mostly everything by myself. 
