@@ -4,6 +4,7 @@ let currentQuestionIndex = 0;
 
 //variables to DOM elements
 const loginForm = document.getElementById("log-in");
+const containerOne = document.getElementsByClassName("container1");
 const startGame = document.querySelector(".start-game");
 const trueButton = document.getElementById("true");
 const falseButton = document.getElementById("false");
