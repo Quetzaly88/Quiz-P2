@@ -4,15 +4,14 @@ let currentQuestionIndex = 0;
 const startGame = document.querySelector(".start-game");
 const trueButton = document.getElementById("true");
 const falseButton = document.getElementById("false");
-
-//const questionArea = document.getElementById("question-area");
-
 const scoreDisplay = document.getElementById("score");
 const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
 const currentQuestionText = document.getElementById("current-question");
+
 //const questionText = document.getElementById("question-text");
 //const options = document.querySelector(".options");
+//const questionArea = document.getElementById("question-area");
 
 //question array
 const questions = [
@@ -28,44 +27,14 @@ trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
 restartButton.onclick = restartGame;
 
-function restartGame () {
-    correctAnswer = 0;
-    currentQuestionIndex = 0;
-    let currentQuestion = document.getElementById("current-question");
-    currentQuestion.innerText = questions[0].question; //referencing the obj. property
-    //questionArea.innerText = questions[0].question;
-    currentQuestion.style.display = "block";
-    options.style.display = "inline";
-    trueButton.style.display = "block"; 
-    falseButton.style.display = "block";
-    questionText.style.display = "none"; 
-    restartButton.style.display = "none";
-
-}
-/**login code doesn't work
-//just demonstration, no autentification logic
-function logIn(event) {
-    //prevent the default from submision
-    event.preventDefault();
-    //retrieve input by id
-    let user = document.getElementById("username");
-    let pass = document.getElementById("password");
-    //display values
-    document.getElementById("user-result").textContent = user.value;
-    document.getElementById("pass-result").textContent = pass.value;
-}
-//retrieve the form by id
-let form = document.getElementById("log-in");
-//add event listener
-form.addEventListener("submit", logIn);*/
-
-
 function initGame () {
-    let currentQuestion = document.getElementById("current-question");
+    currentQuestionText.innerText = questions[0].question;
+
+    //let currentQuestion = document.getElementById("current-question");
     currentQuestion.innerText = questions[0].question;
 
     let questionText = document.getElementById("question-text");
-    questionText.style.display = "none";
+    questionText.style.display = "none";//
 
     title.style.display = "none";
     questionText.style.display = "none"; 
@@ -114,3 +83,35 @@ function nextQuestion () {
 }
 
 
+
+function restartGame () {
+    correctAnswer = 0;
+    currentQuestionIndex = 0;
+    
+    let currentQuestion = document.getElementById("current-question");
+    currentQuestion.innerText = questions[0].question; //referencing the obj. property
+    //questionArea.innerText = questions[0].question;
+    currentQuestion.style.display = "block";
+    options.style.display = "inline";
+    trueButton.style.display = "block"; 
+    falseButton.style.display = "block";
+    questionText.style.display = "none"; 
+    restartButton.style.display = "none";
+
+}
+/**login code doesn't work
+//just demonstration, no autentification logic
+function logIn(event) {
+    //prevent the default from submision
+    event.preventDefault();
+    //retrieve input by id
+    let user = document.getElementById("username");
+    let pass = document.getElementById("password");
+    //display values
+    document.getElementById("user-result").textContent = user.value;
+    document.getElementById("pass-result").textContent = pass.value;
+}
+//retrieve the form by id
+let form = document.getElementById("log-in");
+//add event listener
+form.addEventListener("submit", logIn);*/
