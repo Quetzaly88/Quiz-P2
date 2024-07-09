@@ -29,6 +29,7 @@ function handleLogin (event) {
     event.preventDefault();
     alert("You are logged in!");
     loginForm.style.display = "none";
+    document.querySelector(".container").style.display = "block";
 }
 
 
