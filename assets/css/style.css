@@ -5,7 +5,6 @@
     }
 
     h1 {
-        font-size: 3rem;
         padding: 10px;
     }
 
@@ -137,14 +136,14 @@
     }
 
     @media screen and (max-width: 480px) {
+        
+        body {
+            font-size: 10px;
+        }
         .container {
             width: 100%;
             height: auto;
             padding: auto;
-        }
-
-        .content {
-            font-size: 12px;
         }
 
         .score-area,
@@ -160,6 +159,11 @@
     }
 
     @media screen and (max-width: 768px) {
+
+        body {
+            font-size: 16px;
+        }
+
         .container {
             width: 90%;
             height: auto;
@@ -178,6 +182,11 @@
 /*centering content on screen larger than 768px*/
 
     @media screen and (min-width: 769px) {
+
+        body {
+            font-size: 20px;
+        }
+
         .container {
             display: flex;
             justify-content: center;
