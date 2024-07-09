@@ -72,7 +72,10 @@ function nextQuestion () {
         document.getElementById("current-question").innerText = questions[currentQuestionIndex].question;
     } else {
        currentQuestionText.innerText = "You completed the quiz!";
-       currentQuestionText.
+       currentQuestionText.style.display = "block";
+       trueButton = "none";
+       falseButton.style.display = "none";
+       restartButton.style.display = "block";
     }
 }
  /*questionText.style.display = "block";
