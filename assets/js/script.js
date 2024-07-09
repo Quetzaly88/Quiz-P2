@@ -27,6 +27,8 @@ restartButton.onclick = restartGame;
 
 function handleLogin (event) {
     event.preventDefault();
+    alert("You are logged in!");
+    loginForm.style.display = "none";
 }
 
 
