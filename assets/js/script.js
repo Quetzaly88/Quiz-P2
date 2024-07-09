@@ -1,6 +1,8 @@
 let correctAnswer = 0;
 let currentQuestionIndex = 0;
 
+const loginForm = document.getElementById("log-in");
+
 const startGame = document.querySelector(".start-game");
 const trueButton = document.getElementById("true");
 const falseButton = document.getElementById("false");
@@ -16,7 +18,7 @@ const questions = [
     {question: "Is the chemical symbol for gold 'Au'", correctAnswer: true},
     {question: "The longest river in the world is the Nile", correctAnswer: false}
 ]
-
+loginForm.onsubmit = handleLogin;
 startGame.onclick = initGame;
 trueButton.onclick = answerTrue;
 falseButton.onclick = answerFalse;
@@ -40,18 +42,15 @@ function checkAnswer (answer, question) {
 //retrive the correct question, log the answer, check if 'true' is correct. 
 function answerTrue () {
     const currentQuestion = questions[currentQuestionIndex];
-    console.log(currentQuestion.correctAnswer);
     checkAnswer(true, currentQuestion);
     nextQuestion();
     }
 
 function answerFalse () {
     const currentQuestion = questions[currentQuestionIndex];
-    console.log(currentQuestion.correctAnswer);
     checkAnswer(false, currentQuestion);
     nextQuestion();
 }
-
 
 function nextQuestion () {
     currentQuestionIndex++; 
@@ -73,7 +72,7 @@ function restartGame () {
     currentQuestionText.style.display = "block";
     trueButton.style.display = "block"; 
     falseButton.style.display = "block";
-    restartButton.style.display = "none";
+    restartButton.style.display = "block";
     title.style.display = "none";
 }
   
