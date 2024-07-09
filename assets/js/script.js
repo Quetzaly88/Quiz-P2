@@ -9,11 +9,6 @@ const restartButton = document.getElementById("restart");
 const title = document.querySelector(".title");
 const currentQuestionText = document.getElementById("current-question");
 
-//const questionText = document.getElementById("question-text");
-//const options = document.querySelector(".options");
-//const questionArea = document.getElementById("question-area");
-
-//question array
 const questions = [
     {question: "The hummingbird egg is the world's smallest bird egg", correctAnswer: true},
     {question: "The blue whale is the biggest animal to have ever lived.", correctAnswer: true},
@@ -33,18 +28,12 @@ function initGame () {
     startGame.style.display = "none";
     title.style.display = "none";
 }
-    /*let currentQuestion = document.getElementById("current-question");
-    currentQuestion.innerText = questions[0].question;
-    let questionText = document.getElementById("question-text");
-    questionText.style.display = "none";//
-    //questionText.style.display = "none"; */
-
 
 function checkAnswer (answer, question) {
     if (answer === question.correctAnswer) {
         correctAnswer++;
-        let score = document.getElementById("score");
-        score.innerText = correctAnswer;
+        //let score = document.getElementById("score");
+        scoreDisplay.innerText = correctAnswer;
     }
 }
 
