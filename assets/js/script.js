@@ -29,18 +29,16 @@ restartButton.onclick = restartGame;
 
 function initGame () {
     currentQuestionText.innerText = questions[0].question;
-
-    //let currentQuestion = document.getElementById("current-question");
+    currentQuestionText.style.display = "block";
+    startGame.style.display = "none";
+    title.style.display = "none";
+}
+    /*let currentQuestion = document.getElementById("current-question");
     currentQuestion.innerText = questions[0].question;
-
     let questionText = document.getElementById("question-text");
     questionText.style.display = "none";//
+    //questionText.style.display = "none"; */
 
-    title.style.display = "none";
-    questionText.style.display = "none"; 
-    startGame.style.display = "none";
-
-}
 
 function checkAnswer (answer, question) {
     if (answer === question.correctAnswer) {
