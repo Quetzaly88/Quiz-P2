@@ -102,7 +102,8 @@ function nextQuestion () {
         questionText.innerText = "You completed the quiz!";
         document.getElementById("current-question").style.display = "none";
         trueButton.style.display = "none"; 
-        falseButton.style.display = "none"; 
+        falseButton.style.display = "none";
+        restartButton.style.display = "block"; 
     }
 }
 
