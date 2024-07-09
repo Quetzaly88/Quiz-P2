@@ -82,19 +82,12 @@ function restartGame () {
     currentQuestionIndex = 0;
     currentQuestionText.innerText = questions[0].question;
     currentQuestionText.style.display = "block";
-
-    
-    let currentQuestion = document.getElementById("current-question");
-    currentQuestion.innerText = questions[0].question; //referencing the obj. property
-    //questionArea.innerText = questions[0].question;
-    currentQuestion.style.display = "block";
-    options.style.display = "inline";
     trueButton.style.display = "block"; 
     falseButton.style.display = "block";
-    questionText.style.display = "none"; 
     restartButton.style.display = "none";
-
+    title.style.display = "none";
 }
+  
 /**login code doesn't work
 //just demonstration, no autentification logic
 function logIn(event) {
