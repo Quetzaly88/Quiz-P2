@@ -29,7 +29,11 @@ restartButton.onclick = restartGame;
 function restartGame () {
     correctAnswer = 0;
     currentQuestionIndex = 0;
-    questionArea.innerText = questions[0].question;
+    questionArea.innerText = questions[0].question;//referincing the obj.property
+    options.style.display = "inline";
+    trueButton.style.display = "block"; 
+    falseButton.style.display = "block"; 
+    restartButton.style.display = "none";
 
 }
 /**login code doesn't work
@@ -93,10 +97,9 @@ function nextQuestion () {
     if (currentQuestionIndex < questions.length) {
         document.getElementById("current-question").innerText = questions[currentQuestionIndex].question;
     } else {
-    document.getElementById("question-area").innerText = "You completed the quiz!";
-    options.style.display = "none";
-    //falseButton.style.display = "none"; 
-    submitButton.style.display = "none";
+        questionText.innerText = "You completed the quiz!";
+        trueButton.style.display = "none"; 
+        falseButton.style.display = "none"; 
     }
 }
 
