@@ -3,31 +3,26 @@
 Project 2
 Code Isntitute
 
-This is a simple quiz game that tests your knowledge with true/false questions. This game includes. a log-in form, a set of questions, a track of your score and a form for feedback. 
+This is a simple quiz game that tests your knowledge with true/false questions. This game includes: a log-in form, a set of questions, a track of your score and a form for feedback. 
 
 ![mockup](./assets/readme.files/mockup.webp)
-
-https://ui.dev/amiresponsive
 
 
 Design
 
 Colour Scheme
 
-I choosed a pallet from coolors that is not so bright and makes that the quix container color pops up more then the background color. The dark color was used in the back, the bright yellow in the quiz container and other colors were used in the buttons. 
+I choosed a pallet from coolors that is not so bright and makes that the quiz container color pops up more than the background color. The dark color was used in the back, the bright yellow in the quiz container and other colors were used in the buttons. 
 
 ![warm tones](./assets/readme-files/warm-tones.webp)
-
-https://coolors.co/
 
 Typography
 
 The chosen typography was adquired from google fonts. 
-I chosed "Exo 2" for all the text because is a redable font and gives me the feeling that suits a game. 
+I chosed "Exo 2" for all the text because is a redable font and it suits a game. 
 
 ![typography Exo 2](./assets/readme.files/font.webp)
 
-https://fonts.google.com/specimen/Exo+2?stroke=Sans+Serif&query=exo+2
 
 Imagery
 
@@ -36,7 +31,7 @@ The image is displayed in the browser tab.
 
 ![fav icon](./assets/images/icons8-quizizz-64.png)
 
-https://icons8.com/icons/set/quiz
+The screenshots used for this readme file were transformed from png to webp using the webp converter. 
 
 
 Wireframes
@@ -46,19 +41,25 @@ Most wireframes were made old school with pen and paper. I have used FIGMA just 
 ![main page](./assets/readme.files/wireframe1.webp)
 ![form](./assets/readme.files/wireframe2.webp)
 
-https://www.figma.com/design/bl6DMXwtOLRpX6XjRXwDif/Untitled?t=fSNs9KADQaAGOnzS-0
 
 FEATURES
 
 The log in box:
 
-* Here is a simple log-in box that requires an e-mai adress. It accepts any password and prevents to be submitted.////////// 
+Here is a simple log-in box that requires an e-mai adress. It prevents the default form submission behavior, shows an alert indicating that the user has logged in, hides the login form, and then displays the main content container. This provides a basic user interface response to a successful login. After the user has logged in the box dissapears giving more focus to the quiz container. 
+The log in feature is optional. 
 
 ![log-in](./assets/readme.files/login.webp)
 
 The landing page image
 
-The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of how it feels to surf and how happy you can feel with it. You can even undesrstand that challenging yourself is fun. 
+The landing page includes the log-in box and the Quiz container.
+Inside the quiz container we have different buttons:
+
+- Start Button: 
+- True and False buttons
+- Reset Button 
+- Leave feedback button
 
 ![quiz container](./assets/readme.files/main.page.webp)
 
@@ -71,10 +72,9 @@ Feedback Form
 
 
 Future Implementations
-- Add teachers and staff pictures on the site, with information about them and their experience. 
-- I would like to expand the context with more information about eating balanced and some program focused on hard-working people that need a break from their activities.
-- I wanto to implement the idea that everyone can try new difficult things and keep learning.
-- Find more adaptable images for my project.
+
+- I need to be more clear with class and division names. Less elements can lead me to less code and less confusion.
+- I found Figma and I want to use it more. Is very useful for websites, designs, inspiration and even the wireframe. 
 
 Accessibility
 The page is easy to read and understand. The user will be able to return to all three pages from all three pages. The colors are relaxing to the eye wich makes the user stay longer in the site. The font-families are friendly to dislexic users. In the project, I have include the sans-serif font family and "alt" to all images, which make easier for users with dissabilities to read. 
@@ -103,15 +103,14 @@ Testing
 Bugs
 
 I've been correcting and adjusting small mistakes in all the process of this project. 
-Sometimes I've made big changes to make the page look better. 
+I had a big problem that I was refering to the wrong element and the variables that I had from the beginning were not clear, therfore I had to erase some variables and make a new one just with current question. 
+My experience was that I should't create too many variables and better to create them when I need them. 
+I made some improvements and the quiz ended up functioning better.
 
 Some problems that I found are:
-- Adjusting the footer to all devices.
-- Reduce video prev. size
-- Some css styling as flex-box.
-- Adapt the correct picture sizes to the assets.
-- Media query was difficult to adapt aflet I was done with most of the project. 
-- Pressure made me make misstakes but at the end I solved them. 
+- Media query was difficult to adapt after I was done with most of the project. 
+- I had to go back to CSS theory because of details that I couldn't remember. 
+- JavaScript is a fun language but I need more projects to practice so I can apply more or the theory. 
 
 Deployment
 
@@ -138,12 +137,16 @@ many other credits are to YouTube Tutorials from:
 - Superproff private teachers. https://www.superprof.se/
 
 Media Content
-
+- Mock up: https://ui.dev/amiresponsive
+- Palette colors: https://coolors.co/
+- Fonts: https://fonts.google.com/specimen/Exo+2?stroke=Sans+Serif&query=exo+2
+- Fav icons: https://icons8.com/icons/set/quiz
 - Webp converter app. https://anywebp.com/
-- Fav icons
-- Fonts. https://fonts.google.com/
+- Wireframe: https://www.figma.com/design/bl6DMXwtOLRpX6XjRXwDif/Untitled?t=fSNs9KADQaAGOnzS-0
+
+
 - Responsive mockups. 
-- Palette colors. https://coolors.co/
+
 - Wireframes.  and my own notes.
 
 Text content
