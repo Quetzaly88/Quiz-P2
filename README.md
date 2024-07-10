@@ -1,22 +1,23 @@
 # Quiz-game
  
 Project 2
-Code Isntitute
+Code Institute
 
 This is a simple quiz game that tests your knowledge with true/false questions. This game includes: a log-in form, a set of questions, a track of your score and a form for feedback. 
 
 ![mockup](./assets/readme.files/mockup.webp)
 
 
-Design
+DESIGN
 
-Colour Scheme
+* Colour Scheme
 
 I choosed a pallet from coolors that is not so bright and makes that the quiz container color pops up more than the background color. The dark color was used in the back, the bright yellow in the quiz container and other colors were used in the buttons. 
 
-![warm tones](./assets/readme-files/warm-tones.webp)
+![coolors](./assets/readme.files/coolors.webp)
 
-Typography
+
+* Typography
 
 The chosen typography was adquired from google fonts. 
 I chosed "Exo 2" for all the text because is a redable font and it suits a game. 
@@ -24,7 +25,7 @@ I chosed "Exo 2" for all the text because is a redable font and it suits a game.
 ![typography Exo 2](./assets/readme.files/font.webp)
 
 
-Imagery
+* Imagery
 
 I haven't used any pictures for this project because it was mostly focused on the development of Javascript. But, I used just one image from favicons for the website representation. 
 The image is displayed in the browser tab. 
@@ -34,7 +35,7 @@ The image is displayed in the browser tab.
 The screenshots used for this readme file were transformed from png to webp using the webp converter. 
 
 
-Wireframes
+WIREFRAMES
 
 Most wireframes were made old school with pen and paper. I have used FIGMA just for a quick representation in README. 
 
@@ -44,14 +45,15 @@ Most wireframes were made old school with pen and paper. I have used FIGMA just 
 
 FEATURES
 
-The log in box:
+* The log in box:
 
 Here is a simple log-in box that requires an e-mai adress. It prevents the default form submission behavior, shows an alert indicating that the user has logged in, hides the login form, and then displays the main content container. This provides a basic user interface response to a successful login. After the user has logged in the box dissapears giving more focus to the quiz container. 
 The log in feature is optional. 
 
 ![log-in](./assets/readme.files/login.webp)
 
-The landing page image
+
+* The landing page image
 
 The landing page includes the log-in box and the Quiz container.
 Inside the quiz container we have different buttons:
@@ -63,28 +65,34 @@ Inside the quiz container we have different buttons:
 
 ![quiz container](./assets/readme.files/main.page.webp)
 
-Feedback Form
+
+* Feedback Form
 
 Here the user can write their name and write a comment. When submited it just goes to Code institute fordump page. 
 
 ![form](./assets/readme.files/form.webp)
 
 
-Future Implementations
+FUTURE IMPLEMENTATIONS
 
 - I need to be more clear with class and division names. Less elements can lead me to less code and less confusion.
-- I found Figma and I want to use it more. Is very useful for websites, designs, inspiration and even the wireframe. True and False buttons go on top of each other. I've bee trying to figure out this but next time I will fix it. 
-- Many useful sites are payed or need to be logged in. I feel is too much to do so I stayed with free websites. I the future I can make use of those when I work with Web designing. 
+- I found Figma and I want to use it more. Is very useful for websites, designs, inspiration and even the wireframe.   
+  True and False buttons go on top of each other. I've bee trying to figure out this but next time I will fix it. 
+- Many useful sites are payed or need to be logged in. I feel is too much to do so I stayed with free websites. I the 
+  future I can make use of those when I work with Web designing. 
 - I couldn't make the submit form button to return to the main page but there is the Go back to quiz button instead. 
 - When I was done with HTML, I realized that my divs and classes were messy so I changed them many times, 
 
-Accessibility
+
+ACCESIBILITY
+
 The page is easy to read and understand. The user will be able to return to the main page from the feedback site. 
 The colors are relaxing to the eye wich makes the user stay longer in the site. The font-families are friendly to dislexic users. In the project, I have include the sans-serif font family and "alt" to all images, which make easier for users with dissabilities to read. 
 
+
 TECHNOLOGIES USED
 
-Languages Used
+* Languages Used
 
 As I'm learning more of coding, the langUages of this project are exclusively HTML & CSS and Javascript. 
 I've been using Gitpod for editing the project and Github for deployment. 
@@ -92,17 +100,23 @@ I used Reddit to make changes that I didn't want to affect the project untill I 
 I have used some of Deftools specially the screen sizing.
 Javascript was really difficult in the beginning but I got more comfortable when I finished my project. 
 
-Testing
+* Testing
 
-* Log-in box, and all the buttons are responsive. 
-* The site is avaiable and readable in on all devices. 
-* HTML. No errors were returned when passing through the official W3C validator
-* CSS. No errors were found when passing through the official (Jigsaw) validator
-* JAVASCRIPT. There was an error that was fixed using /* jshint esversion: 6 */. I understand that is used to standardize JavaScript. 
+- Log-in box, and all the buttons are responsive. 
+- The site is avaiable and readable in on all devices. 
+- HTML. No errors were returned when passing through the official W3C validator
+- CSS. No errors were found when passing through the official (Jigsaw) validator
+- JAVASCRIPT. There was an error that was fixed using /* jshint esversion: 6 */. I understand that is used to standardize JavaScript. 
+
 
 ![HTML TEST](./assets/readme.files/html.validator.webp)
 ![CSS TEST](./assets/readme.files/css.validator.webp)
 ![JAVASCRIPT TEST](./assets/readme.files/javascript%20validator.webp)
+
+* The lighthouse open source from Chrome ensures that this website is not only fast and efficient but also accessible, SEO-friendly, and adhering to best practices.
+
+![LIGHTHOUSE TEST](./assets/readme.files/lighthouse.webp)
+
 
 Bugs
 
