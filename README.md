@@ -56,17 +56,16 @@ The landing page image
 The landing page includes the log-in box and the Quiz container.
 Inside the quiz container we have different buttons:
 
-- Start Button: 
-- True and False buttons
-- Reset Button 
-- Leave feedback button
+- Start Button: When pushed, the title of "Quiz game" dissappears and instead the array of questions start to show.
+- True and False buttons: The user chooses true or false and depending of the choice the "Correct Answer" increases. When all the array of questions has shown we have a message saying "You completed the quiz". 
+- Reset Button: Any time during the game the user can push "Reset". The user can push restart and do the game over and over again. 
+- Leave feedback button: At the end of the quiz we have share your feedback! and "Click here". When click here is pushed, a new page is loaded. 
 
 ![quiz container](./assets/readme.files/main.page.webp)
 
 Feedback Form
 
-*In this page, the users provide basic information about themselves. Name, last name, email adress and some questions. The questions are important for the team to know a little bit more about the users and their experience in the water. 
-*S&W team can locate people in the most adaptable group. Then, they can contact the users about what is avaiable. 
+Here the user can write their name and write a comment. When submited it just goes to Code institute fordump page. 
 
 ![form](./assets/readme.files/form.webp)
 
@@ -74,27 +73,32 @@ Feedback Form
 Future Implementations
 
 - I need to be more clear with class and division names. Less elements can lead me to less code and less confusion.
-- I found Figma and I want to use it more. Is very useful for websites, designs, inspiration and even the wireframe. 
+- I found Figma and I want to use it more. Is very useful for websites, designs, inspiration and even the wireframe. True and False buttons go on top of each other. I've bee trying to figure out this but next time I will fix it. 
+- Many useful sites are payed or need to be logged in. I feel is too much to do so I stayed with free websites. I the future I can make use of those when I work with Web designing. 
+- I couldn't make the submit form button to return to the main page but there is the Go back to quiz button instead. 
+- When I was done with HTML, I realized that my divs and classes were messy so I changed them many times, 
 
 Accessibility
-The page is easy to read and understand. The user will be able to return to all three pages from all three pages. The colors are relaxing to the eye wich makes the user stay longer in the site. The font-families are friendly to dislexic users. In the project, I have include the sans-serif font family and "alt" to all images, which make easier for users with dissabilities to read. 
+The page is easy to read and understand. The user will be able to return to the main page from the feedback site. 
+The colors are relaxing to the eye wich makes the user stay longer in the site. The font-families are friendly to dislexic users. In the project, I have include the sans-serif font family and "alt" to all images, which make easier for users with dissabilities to read. 
 
 TECHNOLOGIES USED
 
 Languages Used
 
-As I'm starting with coding, the langUages of this project are exclusively HTML & CSS.
+As I'm learning more of coding, the langUages of this project are exclusively HTML & CSS and Javascript. 
 I've been using Gitpod for editing the project and Github for deployment. 
-I used Reddit to make changes that I didn't want to affect the project untill I was satisfied with those. Then, I copied my changes from Reddit and pasted in Gitpod. 
+I used Reddit to make changes that I didn't want to affect the project untill I was satisfied with those. Then, I writed my changes from Reddit to Gitpod. 
 I have used some of Deftools specially the screen sizing.
+Javascript was really difficult in the beginning but I got more comfortable when I finished my project. 
 
 Testing
 
-*Home, Gallery and Application are responsive. 
-*The footer redirect the users to google maps, all social media avaiable and even email draft. 
-*The site is avaiable and readable in on all devices. 
-*HTML. No errors were returned when passing through the official W3C validator
-*CSS. No errors were found when passing through the official (Jigsaw) validator
+* Log-in box, and all the buttons are responsive. 
+* The site is avaiable and readable in on all devices. 
+* HTML. No errors were returned when passing through the official W3C validator
+* CSS. No errors were found when passing through the official (Jigsaw) validator
+* JAVASCRIPT. There was an error that was fixed using /* jshint esversion: 6 */. I understand that is used to standardize JavaScript. 
 
 ![HTML TEST](./assets/readme.files/html.validator.webp)
 ![CSS TEST](./assets/readme.files/css.validator.webp)
@@ -107,7 +111,7 @@ I had a big problem that I was refering to the wrong element and the variables t
 My experience was that I should't create too many variables and better to create them when I need them. 
 I made some improvements and the quiz ended up functioning better.
 
-Some problems that I found are:
+Some other problems that I found are:
 - Media query was difficult to adapt after I was done with most of the project. 
 - I had to go back to CSS theory because of details that I couldn't remember. 
 - JavaScript is a fun language but I need more projects to practice so I can apply more or the theory. 
@@ -120,21 +124,36 @@ From the "Code and automation" source select "pages"
 On Github Pages find "Source", choose "deploy from a branch".
 On branch you will find two dop-down menus. Choose "main", "root" and push the "save button".
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://quetzaly88.github.io/Surfing-and-Wellness/
+The live link can be found here - https://github.com/Quetzaly88/Quiz-P2.git
 
 Code Used
-Most of the code I used was from my notes, the W3schools and the help I got from Slack. 
-Some parts I used from "love running" walkthrough project as the meta tags, part of the footer and the overlay text on the main page. I realized that is hard to use the exact code from others because all works different in my site, so I didn't trust just to copy someone's code, I've been trying to get inspiration from others and then adapt it to my project. 
-I had assesory from a private teacher in Sweden (Superproff).  He made me think about several things that I could change so my media query won't be wrong. 
+
+Most of the code I used was from my notes, the Stack overflow site, and the Love Maths project. 
+I realized that is hard to use the exact code from Replit because AI gives unacurate suggestions and I can't trust it. 
+Some code that was auto filling or giving sugentions are useful fot time management but many times was very unacurate. 
+I had assesory from a private teacher in Sweden (Superproff).  He made me think about several things that I could change so my project won't have too many functions and variables. 
 
 Credits
-The code was mostly based from the "Love running" walk-through project and 
-many other credits are to YouTube Tutorials from:
-- Dave Gray teaches code. I got information about Media Query. https://youtu.be/mpYtrgB3b6o?si=tcBwVgdc5glg_Nvu
-- Kevin Powell teaches the CSS common misstakes.  https://youtu.be/rxnX1jdoI6c?si=MVfpxYCRFvbaRnaU
-- Skillthrive. Here I got inspiration for the navigation bar. https://youtu.be/PwWHL3RyQgk?si=pcpu4M5ay6js0GTn
-- W3 validator to check HTML. https://validator.w3.org/
-- Superproff private teachers. https://www.superprof.se/
+- Wellesley Education. Helped me understand the functions on Javascript. 
+    https://cs.wellesley.edu/~cs115/readings/more-functions.html#fig4
+- Kevin Powell CSS. 
+    https://youtu.be/3elGSZSWTbM?feature=shared
+- Superproff private teachers. 
+    https://www.superprof.se/
+- Freecode camp. I've been practicing javascript in their website. Freecode camp helped me code while I was applying theory from Code Institute. I used this website and Freecodecamp to practice and learn more.
+    https://www.freecodecamp.org/news/how-to-loop-through-an-array-in-javascript-js-iterate-tutorial/
+    https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
+    https://youtu.be/le-URjBhevE?feature=shared
+- Developer Mozilla. Helped me understand the event listener for my log-in form. 
+    https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- Replit. Helped me to write my code before I used gitpod. 
+    https://replit.com/
+- Stack Overflow. It works almost like slack. Here I found a lot of questions and answers about javascript. 
+    https://stackoverflow.com/
+- Chrome Devtools. As I'm still learning how to use them this is a great tool to see mistakes and improve them. 
+- Pomodoro focus helped me have breaks and time to focus so my body doesn't get so stressed. 
+    https://pomofocus.io/
+
 
 Media Content
 - Mock up: https://ui.dev/amiresponsive
@@ -144,17 +163,12 @@ Media Content
 - Webp converter app. https://anywebp.com/
 - Wireframe: https://www.figma.com/design/bl6DMXwtOLRpX6XjRXwDif/Untitled?t=fSNs9KADQaAGOnzS-0
 
-
-- Responsive mockups. 
-
-- Wireframes.  and my own notes.
-
 Text content
 
 
 Acknowledgments
 
-I want to thank specially to Tarek Bermalm. He is my private teacher in Sweden. He was a big support and a very patience teacher 
+I want to thank specially to Tarek Bermalm. He is my private teacher in Sweden. He was a big support, he explained me details that hepled me understand and learn more. 
 
 I made a most of my code in Replit and after I tested and saw that everything was working fine I wrote the code in gitpod. One big issue about Replit is that the changes are not all the time uppdated, which made me re do alot of the code in gitpod. 
 
